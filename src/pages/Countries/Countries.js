@@ -11,8 +11,10 @@ const Countries = () => {
   return (
     <div>
       <h1>
-        There are <span>{countries.length}</span> in the world{" "}
+        There are <mark>{countries.length}</mark> in the world{" "}
       </h1>
+     
+
     </div>
   );
 };
